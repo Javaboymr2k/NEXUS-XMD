@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "PkdrillerQeNmwJTK#wTtAiBPR4O0b9uQDJ_y6iQ3HGETnjd27hrTwHjGOEvk",
 // add your Session Id 
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot
@@ -17,7 +17,7 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "254112192119",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "260967838144",
 // add your bot owner number
 OWNER_NAME: process.env.OWNER_NAME || "✦ NEXUS ✦ XMD ✦",
 // add bot owner name
@@ -53,12 +53,12 @@ HEART_REACT: process.env.HEART_REACT || "false",
 // make this true or false for heart reactions only 
 OWNER_REACT: process.env.OWNER_REACT || "false",
 // make it true or fasle for only react on owner msg only 
-ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
+ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 // maks true for always online 
 PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
 // make false if want private mod
-AUTO_TYPING: process.env.AUTO_TYPING || "true",
+AUTO_TYPING: process.env.AUTO_TYPING || "false",
 // true for automatic show typing   
-AUTO_RECORDING: process.env.AUTO_RECORDING || "false"
+AUTO_RECORDING: process.env.AUTO_RECORDING || "true"
 // make it true for auto recoding 
 };
